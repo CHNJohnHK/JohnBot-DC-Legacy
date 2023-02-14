@@ -2,7 +2,6 @@ import discord
 import asyncio
 import os
 import re
-import json
 from replit import db
 from keep_alive import keep_alive
 
