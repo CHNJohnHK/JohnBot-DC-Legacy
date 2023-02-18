@@ -45,6 +45,5 @@ async def on_message(message):
         await tmp_msg.delete()
         await message.delete()
 
-# 启动机器人
 keep_alive()
-client.run(os.getenv("discord_bot_token"))
+client.run(os.getenv("bot_token"))
